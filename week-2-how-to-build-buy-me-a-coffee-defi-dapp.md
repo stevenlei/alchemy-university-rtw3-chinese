@@ -1,7 +1,7 @@
 # 2. 如何构建 Defi 去中心化应用 “请我喝杯咖啡“
 
 > 本文是中文翻译，原文地址：
-> [[https://docs.alchemy.com/docs/1-how-to-develop-an-nft-smart-contract-erc721-with-alchemy]](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
+> [https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
 
 区块链技术是惊人的，因为它让我们有能力使用代码和软件对金钱进行编程。只需几行代码，就可以建立各种应用和协议，为世界各地的人们创造新的机会。
 
