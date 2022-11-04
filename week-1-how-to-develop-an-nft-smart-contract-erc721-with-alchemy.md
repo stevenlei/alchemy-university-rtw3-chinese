@@ -41,23 +41,23 @@ _你不会希望有人会从你部署到区块链的合约中，偷走所有珍�
 
 进入该页面后，你会看到以下编辑器：
 
-![985](https://files.readme.io/9e820fe-erc721.png "erc721.png" width=auto height=auto)
+![985](https://files.readme.io/9e820fe-erc721.png)
 
 点击左上角的 ERC721 按钮，选择要使用的 ERC 标准类型和你想写的合约类型：
 
-![997](https://files.readme.io/828ee6a-Erc721_2.png "Erc721 2.png" width=auto height=auto)
+![997](https://files.readme.io/828ee6a-Erc721_2.png)
 
 现在你已经选择了合约标准，在左边的菜单上，你应该看到一些选项。
 
 让我们改一下名称 (Name) 和代称 (Symbol)。点击文本框中的 “MyToken”，给它起个名字，对代称做同样的处理，并将 Base URI 字段留空（名称将被 OpenSea 和 Rarible 用作集合的名称）。
 
-![516](https://files.readme.io/7c6e435-Alh_set.png "Alh set.png" width=auto height=auto)
+![516](https://files.readme.io/7c6e435-Alh_set.png)
 
 ## 选择 NFT（ERC721）的功能
 
 现在需要选择你想集成到智能合约中的功能，在_设置 (Settings)_之后，你会看到_功能 (Features)_，在那里你可以选择不同的模块功能，以包括在你的智能合约当中。
 
-![258](https://files.readme.io/acaa48a-Miint.png "Miint.png" width=auto height=auto)
+![258](https://files.readme.io/acaa48a-Miint.png)
 
 在我们的范例中，你要选择以下功能：
 - **Mintable** 将创建一个只能由特权账户调用的 Mint （铸造）函数
@@ -65,7 +65,7 @@ _你不会希望有人会从你部署到区块链的合约中，偷走所有珍�
 - **Enumerable** 启用智能合约的链上令牌枚举 (on-chain Tokens enumeration) 和 “totalSupply” （总发行量）等功能，这在默认的 ERC721 集成中是没有的
 - **URI Storage** 以将元数据 (metadata) 和图像关联到每一个 NFT 中
 
-![256](https://files.readme.io/d4a7d1d-Screenshot_2022-05-01_at_17.20.48.png "Screenshot 2022-05-01 at 17.20.48.png" width=auto height=auto)
+![256](https://files.readme.io/d4a7d1d-Screenshot_2022-05-01_at_17.20.48.png)
 
 为了达到本教程的目的，也因为不需要为这个 NFT 创建任何代币经济 (Tokenomic)，所以不需要勾选以下模块：
 
@@ -138,7 +138,7 @@ _你不会希望有人会从你部署到区块链的合约中，偷走所有珍�
 
 首先，你可能已经注意到，在 OpenZeppelin Wizard 编辑器的顶部，有一个 “Open in Remix” 的按钮：
 
-![960](https://files.readme.io/108c79e-Remix.png "Remix.png" width=auto height=auto)
+![960](https://files.readme.io/108c79e-Remix.png)
 
 点击它将在浏览器的新分页中打开 Remix IDE。
 
@@ -200,19 +200,19 @@ _你不会希望有人会从你部署到区块链的合约中，偷走所有珍�
 
 首先，让我们到 [alchemy.com](https://alchemy.com/?a=roadtoweb3weekone) 点击 “登录“ 并创建一个新账户：
 
-![2494](https://files.readme.io/56d3600-web3_eco.png "web3 eco.png" width=auto height=auto)
+![2494](https://files.readme.io/56d3600-web3_eco.png)
 
 选择 Ethereum：
 
-![2660](https://files.readme.io/7719099-ether_eco.png "ether eco.png" width=auto height=auto)
+![2660](https://files.readme.io/7719099-ether_eco.png)
 
 给你的应用程序和团队起个名字，选择 Goerli 测试网并点击创建应用程序：
 
-![2520](https://files.readme.io/45f0d4b-Screen_Shot_2022-09-22_at_10.00.53_AM.png "Screen Shot 2022-09-22 at 10.00.53 AM.png" width=auto height=auto)
+![2520](https://files.readme.io/45f0d4b-Screen_Shot_2022-09-22_at_10.00.53_AM.png)
 
 一旦完成这些步骤，就会跳转到仪表板。点击刚才建立的应用程序，**点击右上角的 “VIEW KEY” 按钮**，并复制 HTTP URL（后面会用到）。
 
-![2491](https://files.readme.io/d2c8933-Screen_Shot_2022-09-22_at_10.13.54_AM.png "Screen Shot 2022-09-22 at 10.13.54 AM.png" width=auto height=auto)
+![2491](https://files.readme.io/d2c8933-Screen_Shot_2022-09-22_at_10.13.54_AM.png)
 
 接下来，你需要将 Alchemy 添加到 Metamask 作为 Goerli 测试网的 RPC 供应商。
 
@@ -220,11 +220,11 @@ _你不会希望有人会从你部署到区块链的合约中，偷走所有珍�
 
 Metamask 安装完毕后，点击下拉菜单中的 “网络” -\> “添加网络”。
 
-![796](https://files.readme.io/af70d3f-Screen_Shot_2022-09-22_at_1.28.09_PM.png "Screen Shot 2022-09-22 at 1.28.09 PM.png" width=auto height=auto)
+![796](https://files.readme.io/af70d3f-Screen_Shot_2022-09-22_at_1.28.09_PM.png)
 
 跳转到以下页面，填写 Goerli 网络和 RPC URL 信息：
 
-![2518](https://files.readme.io/6ca3599-Screen_Shot_2022-09-22_at_1.39.28_PM.png "Screen Shot 2022-09-22 at 1.39.28 PM.png" width=auto height=auto)
+![2518](https://files.readme.io/6ca3599-Screen_Shot_2022-09-22_at_1.39.28_PM.png)
 
 填写以下信息：
 - **Network name:** Alchemy Goerli
@@ -241,7 +241,7 @@ Metamask 安装完毕后，点击下拉菜单中的 “网络” -\> “添加�
 
 获取 Goerli 测试 ETH 是很简单的，只需访问 [goerlifaucet.com](https://goerlifaucet.com/)，将你的钱包地址复制到文本栏，然后点击 “Send Me ETH” 按钮：
 
-![1600](https://files.readme.io/f3d2940-goe.png "goe.png" width=auto height=auto)
+![1600](https://files.readme.io/f3d2940-goe.png)
 
 大约 10-20 秒后，你会看到 Goerli ETH 出现在 Metamask 钱包中。
 
@@ -255,25 +255,25 @@ Metamask 安装完毕后，点击下拉菜单中的 “网络” -\> “添加�
 
 回到 Remix，点击页面左侧的编译器菜单，点击蓝色的 “Compile” 按钮：
 
-![357](https://files.readme.io/c0c058f-solid_compiler.png "solid_compiler.png" width=auto height=auto)
+![357](https://files.readme.io/c0c058f-solid_compiler.png)
 
 在 Environment 中选择 “Injected Web3”，然后点击 “Deploy and Run script” 按钮：
 
 **请确保 Metamask 钱包已经连接到 Goerli 测试网**，从 Contract 的下拉选单中选择你的合约（找到你的智能合约的名称），并点击 “Deploy”：
 
-![366](https://files.readme.io/e249393-dep.png "dep.png" width=auto height=auto)
+![366](https://files.readme.io/e249393-dep.png)
 
 Metamask 会弹出交易窗口，点击确定和支付 Gas 费用。
 
 如果一切按预期进行，大约 10 秒钟后你应该看到合约已经成功部署：
 
-![628](https://files.readme.io/6630f89-deployed_contracts.png "deployed_contracts.png" width=auto height=auto)
+![628](https://files.readme.io/6630f89-deployed_contracts.png)
 
 现在，智能合约已经部署在 Goerli 测试网上，是时候铸造我们的 NFT 了，但首先，你需要在 IPFS 上创建和上传元数据 (metadata)，让我们了解一下什么是 “元数据”。
 
 ## 什么是 NFT 元数据 (Metadata)？
 
-![2075](https://files.readme.io/8a5f1ab-octopus.png "octopus.png" width=auto height=auto)
+![2075](https://files.readme.io/8a5f1ab-octopus.png)
 
 为了让 OpenSea 获得 ERC721 NFT 的信息（图片地址、名称、属性等），**合约需要返回一个元数据的 URI**。OpenSea、Rarible 和其他主流的市场**将通过 ERC721 URIStorage 标准中的 tokenURI 方法获得相关的元数据**。
 
@@ -359,13 +359,13 @@ ERC721 中的 `tokenURI` 函数应该返回一个 HTTP 或 IPFS 的地址，例�
 
 登录之后，点击左侧菜单上的 Buckets 按钮，创建一个新的 Bucket：
 
-![3388](https://files.readme.io/73f3bad-filebase.png "filebase.png" width=auto height=auto)
+![3388](https://files.readme.io/73f3bad-filebase.png)
 
 访问 Buckets，点击 **Upload** 按钮，并上传你想用于 NFT 的图片，[我将使用这里的内容](https://ipfs.filebase.io/ipfs/bafybeihyvhgbcov2nmvbnveunoodokme5eb42uekrqowxdennt2qyeculm)。 
 
 上传后，点击它并复制 IPFS 网关的 URL（会更新到下面 JSON 代码中的 `image` 当中）：
 
-![2894](https://files.readme.io/5bd8524-ipfs.png "ipfs.png" width=auto height=auto)
+![2894](https://files.readme.io/5bd8524-ipfs.png)
 
 使用任何文本编辑器，**粘贴以下 JSON 代码：**
 
@@ -421,17 +421,17 @@ ERC721 中的 `tokenURI` 函数应该返回一个 HTTP 或 IPFS 的地址，例�
 
 并将该文件保存为 `metadata.json`。回到 Filebase，把 `metadata.json` 文件上传到我们上传图片的同一个 Bucket 里：
 
-![3446](https://files.readme.io/6ecc402-metadata.png "metadata.png" width=auto height=auto)
+![3446](https://files.readme.io/6ecc402-metadata.png)
 
 最后，点击 CID 并复制它，我们将在下一部分需要它来建立 NFT 铸造时的 `tokenURI`：
 
-![2820](https://files.readme.io/8767656-cid.png "cid.png" width=auto height=auto)
+![2820](https://files.readme.io/8767656-cid.png)
 
 ## 在 Goerli 测试网铸造你的 NFT
 
 回到 Remix，在 Deploy & Run Transactions 菜单中，在 “Deployed contracts” 下 — 点击我们刚刚部署的合约，它将打开一个包含在智能合约里的所有方法的列表：
 
-![578](https://files.readme.io/0a614b5-rin_nft.png "rin_nft.png" width=auto height=auto)
+![578](https://files.readme.io/0a614b5-rin_nft.png)
 
 **橙色的按钮**是写入区块链的方法，而**蓝色的按钮**是从区块链上读取的方法。
 
@@ -454,11 +454,11 @@ ERC721 中的 `tokenURI` 函数应该返回一个 HTTP 或 IPFS 的地址，例�
 
 访问 [testnets.opensea.io](https://testnets.opensea.io/) （译著：这是 OpenSea 测试网，可以读取在测试网中部署的 NFT）并**使用 Metamask 钱包登录**。然后点击你的个人资料图片，你应该在那里能够看到你新铸造的 NFT。如果图片还不可见，点击 “Refresh metadata” 按钮：
 
-![2610](https://files.readme.io/3256828-testnet.png "testnet.png" width=auto height=auto)
+![2610](https://files.readme.io/3256828-testnet.png)
 
 有时 OpenSea 很难识别测试网的元数据 — 可能需要 6 个小时才能看到。经过一些时间之后，你的 NFT 应该是可见的，如下所示：
 
-![2840](https://files.readme.io/b36cf81-erc_testnet.png "erc_testnet.png" width=auto height=auto)
+![2840](https://files.readme.io/b36cf81-erc_testnet.png)
 
 **恭喜你，你已经成功创建、修改并部署了你的第一个智能合约。铸造了你的第一个 NFT，并在 IPFS 上发布了你的图像！** 🔥
 

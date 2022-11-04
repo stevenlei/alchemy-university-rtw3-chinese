@@ -82,7 +82,7 @@ Github参考：
 初始化 hardhat 项目：
 	npx hardhat
 
-![1378](https://files.readme.io/886d2ce-npx_hardhat.png "npx_hardhat.png" width=auto height=auto)
+![1378](https://files.readme.io/886d2ce-npx_hardhat.png)
 
 > 译著：
 > 
@@ -115,7 +115,7 @@ Github参考：
 
 现在，使用任何代码编辑器来打开项目文件夹吧 我喜欢使用VSCode。
 
-![1836](https://files.readme.io/4e2aa36-vs.png "vs.png" width=auto height=auto)
+![1836](https://files.readme.io/4e2aa36-vs.png)
 
 你会注意到，有一些文件已经通过 Hardhat 样本项目工具自动生成了。我们将替换所有这些文件，从 “Greeter.sol” 文件开始：
 
@@ -298,7 +298,7 @@ Github参考：
 
 到现在为止，你的项目目录结构应该是这样的：
 
-![2038](https://files.readme.io/66e9ef5-sample-script.js.png "sample-script.js.png" width=auto height=auto)
+![2038](https://files.readme.io/66e9ef5-sample-script.js.png)
 
 请花点时间阅读一下脚本代码。为了方便起见，我在顶部定义了一些实用的函数，例如获取钱包余额并打印出来。
 
@@ -395,7 +395,7 @@ Github参考：
 
 回顾一下项目结构，我们现在有一个智能合约和两个 hardhat 脚本：
 
-![2044](https://files.readme.io/3b56180-buyCoffee.png "buyCoffee.png" width=auto height=auto)
+![2044](https://files.readme.io/3b56180-buyCoffee.png)
 
 现在有了 `deploy.js`，如果你运行以下命令：
 
@@ -517,7 +517,7 @@ Github参考：
 
 你现在有一个合约部署到 Goerli 测试网。你可以在 Goerli etherscan 区块链浏览器上通过粘贴你的地址来查看它：[https://goerli.etherscan.io/](https://goerli.etherscan.io/)
 
-![2816](https://files.readme.io/6e07f02-aeiou.png "aeiou.png" width=auto height=auto)
+![2816](https://files.readme.io/6e07f02-aeiou.png)
 
 在我们进入教程的前端网站（dapp）部分之前，让我们再准备一个以后要用到的脚本，即 `withdraw.js` （提款）脚本。
 
@@ -580,7 +580,7 @@ Github参考：
 	  });
 
 你的项目结构应该是这样的：
-![2044](https://files.readme.io/b7a9b34-contrar.png "contrar.png" width=auto height=auto)
+![2044](https://files.readme.io/b7a9b34-contrar.png)
 
 这个脚本最重要的部分是我们调用 `withdrawTips()` 函数，从合约余额中提出代币 (ETH)，并把它送到所有者的钱包里：
 
@@ -618,7 +618,7 @@ Github参考：
 
 请访问我的示例项目，并 fork 它以创建你自己的副本进行修改：[https://replit.com/@thatguyintech/BuyMeACoffee-Solidity-DeFi-Tipping-app](https://replit.com/@thatguyintech/BuyMeACoffee-Solidity-DeFi-Tipping-app)
 
-![2448](https://files.readme.io/c0057db-Fork_repl.png "Fork repl.png" width=auto height=auto)
+![2448](https://files.readme.io/c0057db-Fork_repl.png)
 
 你也可以在这里查看完整的网站代码：[https://github.com/alchemyplatform/RTW3-Week2-BuyMeACoffee-Website](https://github.com/alchemyplatform/RTW3-Week2-BuyMeACoffee-Website)
 
@@ -628,7 +628,7 @@ Github参考：
 - 查看你的应用程序（支持热重载 - 修改代码后无需刷新就能看到最新版本）
 
 它应该看起来像这样：
-![3352](https://files.readme.io/517c1cf-albert.png "albert.png" width=auto height=auto)
+![3352](https://files.readme.io/517c1cf-albert.png)
 
 本教程的这一部分将是快速而有趣的 — 我们将更新几个变量，以便它与我们在项目的前几部分部署的智能合约相连接，并使它在网站上显示你自己的名字！
 
@@ -645,7 +645,7 @@ Github参考：
 
 你可以通过粘贴我们之前部署的 `BuyMeACoffee.sol` 智能合约时的地址来解决这个问题。
 
-![1972](https://files.readme.io/9f1ee86-buya.sol.png "buya.sol.png" width=auto height=auto)
+![1972](https://files.readme.io/9f1ee86-buya.sol.png)
 
 ### 在 pages/index.js 中更新名字为自己的名字
 
@@ -653,7 +653,7 @@ Github参考：
 
 你可以用 `cmd+F` (Mac) 或 `ctrl+F` (Windows) 来寻找所有 `Albert` 并且替换掉。
 
-![1982](https://files.readme.io/d03249f-theGuy.png "theGuy.png" width=auto height=auto)
+![1982](https://files.readme.io/d03249f-theGuy.png)
 
 ### 确保合同 ABI 与本机的 utils/BuyMeACoffee.json 相同
 
@@ -663,11 +663,11 @@ ABI 是应用程序的二进制接口，它只是告诉我们的前端代码在�
 
 每当你改变你的智能合约代码并重新部署时，你的 ABI 也会改变。把它复制过来并粘贴到 Replit 文件中： `utils/BuyMeACoffee.json`。
 
-![1976](https://files.readme.io/1aaabe1-utils.png "utils.png" width=auto height=auto)
+![1976](https://files.readme.io/1aaabe1-utils.png)
 
 现在，如果应用程序还没有运行，你可以到命令行中使用 `npm run dev` 来启动一个测试服务器来测试你的改动。网站应该在几秒钟内就会加载。
 
-![1354](https://files.readme.io/9ea1320-connect_wallet.png "connect_wallet.png" width=auto height=auto)
+![1354](https://files.readme.io/9ea1320-connect_wallet.png)
 
 Replit 的厉害之处在于，一旦你建立了网站，你可以回到你的个人资料，找到 Replit 项目的链接，并将其发送给朋友，让他们访问你的小费页面。
 
@@ -677,7 +677,7 @@ Replit 的厉害之处在于，一旦你建立了网站，你可以回到你的�
 
 一经确定，你的钱包将与网站连接上，你将能够看到咖啡的提交表单，以及其他访客在较早的时候留下的信息。
 
-![2816](https://files.readme.io/ae9a697-momo.png "momo.png" width=auto height=auto)
+![2816](https://files.readme.io/ae9a697-momo.png)
 
 哇哦！这就是了！这就是整个项目了！
 
